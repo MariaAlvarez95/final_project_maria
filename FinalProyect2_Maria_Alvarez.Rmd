@@ -1,0 +1,114 @@
+---
+title: 'Final Project 2: Analysis of Males with Heart Attack'
+author: "Maria Alvarez"
+date: "2025-02-21"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r, set-chunk-opts, echo = FALSE}
+library(knitr)
+opts_chunk$set(
+  echo = FALSE, warning = FALSE, message = FALSE
+)
+```
+
+## Introduction
+
+Heart disease is the leading cause of death for men in the United States. Every year, about 805,000 people in the United States have a heart attack. Of these, 605,000 are first heart attacks, and 200,000 happen to people who have already had a heart attack1. The average age at the first heart attack is 65.6 years for males2. Approximately every 40 seconds, someone in the United States will have a myocardial infarction.
+
+The analyzed dataset comes from the Panel Study of Income Dynamics (PSID) conducted by the Michigan Institute for Social Research. The PSID is the longest-running longitudinal household survey in the world. It began in 1968 with a nationally representative sample of over 18,000 individuals living in 5,000 families in the United States. Information has been continuously collected on these individuals and their descendants, covering a wide range of topics including employment, income, wealth, expenditures, health, marriage, childbearing, child development, philanthropy, and education.
+
+For this project, I will be analyzing a sample of males who have been tracked since 1999 and still remain in the survey until 2021. This sample specifically includes males who identified as the reference or head of their household and have experienced a heart attack. Key variables in the analysis will include: history of heart disease, age at heart attack, family income level, education level, diagnosis of diabetes, hypertension, stroke events, and psychiatric conditions, such as depression.
+
+### Objectives:
+
+* Descriptive Statistics
+* Analyze the age distribution at which these males experienced their first heart attack.
+* Examine the distribution of family income levels among males who have experienced a heart attack.
+
+```{r, load-data, echo = FALSE}
+
+library(readr)
+library(dplyr)
+library(labelled)
+library(gtsummary)
+
+data <- read_csv("male_w_heartattack_analysis.csv")
+
+
+```
+
+## Descriptive Statistics
+
+
+```{r descriptive-stats, echo=FALSE}
+
+# Label the variables based on the actual column names
+var_label(data) <- list(
+  Interview_Year = "Interview Year",
+  personID = "Person ID",
+  income = "Income",
+  Family_Income_Level = "Family Income Level",
+  age_group = "Age Group",
+  sex = "Sex",
+  marriage = "Marital Status",
+  heart_attack = "Heart Attack",
+  age_heart_attack = "Mean Age of First Heart Attack",
+  MI_medication = "Heart Attack Medication",
+  stroke = "Stroke",
+  stroke_medication = "Stroke Medication",
+  chronic_HD = "Chronic Heart Disease",
+  chronic_HD_medication = "Chronic Heart Disease Medication",
+  hypertension = "Hypertension",
+  HTN_medication = "Hypertension Medication",
+  diabetes = "Diabetes",
+  psychiatry = "Psychiatric Conditions",
+  insurance = "Insurance",
+  education = "Education Level",
+  race_category = "Race",
+  children = "Number of Children",
+  age = "Age"
+)
+
+
+# Create a summary table with adjusted column widths and rotated headers
+data %>%
+  select("age_group", "sex", "marriage", "heart_attack", "age_heart_attack", "Family_Income_Level", "education", "diabetes", "hypertension", "psychiatry") %>%
+  tbl_summary(by = age_group) %>%
+  modify_spanning_header(all_stat_cols() ~ "**Age Group**") %>%
+  add_overall() %>%
+  add_p()
+```
+
+The table above provides descriptive statistics for selected variables in the dataset, including comparisons between different age groups.The total sample was male identified as the head of the households (230) who reported a heart attack. 72% were identified as married while the other 28% were identified as never married, widowed, divorced or separated. The mean age of first heart attack was 54 years old. 31% of the individuals reported an anual income between %50-$100k, males of >65 years old were identified as the ones who receive this income (32%). In Education Level 54% of the individual receive below college education which 76% are in the group of 35-44 years old. 
+
+## Figure 1. Distribution of Age at First Heart Attack
+
+```{r fig-one, echo=FALSE}
+library(ggplot2)
+ggplot(data, aes(x = age_heart_attack)) +
+  geom_histogram(binwidth = 5, fill = "lightblue", color = "black") +
+  labs(title = "Distribution of Age at First Heart Attack",
+       x = "Age at Heart Attack",
+       y = "Frequency of Heart Attacks")
+```
+
+The figure above illustrates the distribution of ages at which the males in the dataset experienced their first heart attack. The mean age of first heart attack was 54 years old (43-60 years old).
+
+## Figure 2. Family Income Level Distribution in Men Who Have Presented a Heart Attack
+
+```{r fig-two, echo=FALSE}
+# Create a bar plot of family income levels
+ggplot(data, aes(x = factor(Family_Income_Level, levels = c("<$25K", "$25K-$50K", "$50K-$100K", "$100K-$200K", ">=$200K")))) +
+  geom_bar(fill = "lightgreen", color = "black") +
+  labs(title = "Family Income Level Distribution in Men Who Have Presented a Heart Attack",
+       x = "Income Level",
+       y = "Frequency") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+The figure above shows the distribution of family income levels among the males who have experienced a heart attack. Anual Family income between %50k-100k was the highest (31%) while >%200k as the lowest (6.1%).
+
