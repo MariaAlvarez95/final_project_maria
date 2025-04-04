@@ -1,0 +1,231 @@
+Interview_Year,personID,income,Family_Income_Level,age_group,sex,marriage,heart_attack,age_heart_attack,MI_medication,stroke,stroke_medication,chronic_HD,chronic_HD_medication,hypertension,HTN_medication,diabetes,psychiatry,insurance,education,race_category,children,age
+2021,4209,198000.0,>=$200K,65+ Years,Male,Married,1.0,56.0,1.0,1.0,1.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,2,68
+2021,6170,0.0,$25K-$50K,65+ Years,Male,Married,1.0,69.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,76
+2021,7203,0.0,<$25K,55-64 Years,Male,Married,1.0,48.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,1,60
+2021,45178,0.0,$25K-$50K,65+ Years,Male,Married,1.0,51.0,1.0,0.0,0.0,,0,1.0,1.0,0,0.0,Yes,Below College,White,1,67
+2021,51001,4500.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,76.0,0.0,1.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,79
+2021,53206,14000.0,$50K-$100K,65+ Years,Male,Married,1.0,73.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,73
+2021,84183,115000.0,$100K-$200K,35-44 Years,Male,Married,1.0,21.0,0.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,White,2,44
+2021,89183,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,59.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,63
+2021,99170,0.0,<$25K,65+ Years,Male,Married,1.0,58.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,74
+2021,129209,120000.0,>=$200K,35-44 Years,Male,Married,1.0,26.0,0.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,3,36
+2021,129211,17000.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,53.0,0.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,No,Below College,Black,0,58
+2021,181003,53844.0,$100K-$200K,55-64 Years,Male,Married,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,63
+2021,200003,0.0,<$25K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,50.0,0.0,1.0,0.0,0.0,0,1.0,1.0,1,1.0,Yes,Below College,White,0,64
+2021,200030,100000.0,$100K-$200K,35-44 Years,Male,Married,1.0,28.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,3,42
+2021,227001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,48.0,1.0,0.0,0.0,1.0,1,1.0,0.0,0,0.0,Yes,College Level or Above,White,0,89
+2021,246170,0.0,$100K-$200K,65+ Years,Male,Married,1.0,50.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,68
+2021,308021,5000.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,61.0,1.0,0.0,0.0,,0,1.0,1.0,0,0.0,No,College Level or Above,White,0,74
+2021,351170,0.0,$25K-$50K,65+ Years,Male,Married,1.0,64.0,1.0,0.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,Below College,White,0,68
+2021,351171,0.0,$50K-$100K,65+ Years,Male,Married,1.0,45.0,1.0,0.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,College Level or Above,White,0,68
+2021,361003,0.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,48.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,1.0,Yes,Below College,White,0,63
+2021,374170,0.0,$100K-$200K,65+ Years,Male,Married,1.0,58.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,71
+2021,443003,0.0,<$25K,65+ Years,Male,Married,1.0,71.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,Below College,White,0,71
+2021,455001,70000.0,>=$200K,65+ Years,Male,Married,1.0,67.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,77
+2021,496190,0.0,$50K-$100K,35-44 Years,Male,Married,1.0,39.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,1.0,Yes,Below College,White,2,44
+2021,503001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,29.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,75
+2021,563170,0.0,$25K-$50K,65+ Years,Male,Married,1.0,53.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,White,0,74
+2021,573170,150000.0,>=$200K,65+ Years,Male,Married,1.0,63.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,68
+2021,602170,4000.0,<$25K,65+ Years,Male,Married,1.0,62.0,0.0,1.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,68
+2021,628185,145000.0,$25K-$50K,35-44 Years,Male,Married,1.0,32.0,0.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,1,44
+2021,655001,0.0,$100K-$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,57.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,83
+2021,677177,0.0,$25K-$50K,65+ Years,Male,Married,1.0,66.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,77
+2021,686172,0.0,$25K-$50K,65+ Years,Male,Married,1.0,65.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,1.0,Yes,Below College,White,0,78
+2021,691001,0.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,83.0,1.0,0.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,College Level or Above,White,0,83
+2021,771174,22000.0,<$25K,25-34 Years,Male,Married,1.0,33.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,1,34
+2021,775005,9000.0,$50K-$100K,55-64 Years,Male,Married,1.0,59.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,1.0,Yes,College Level or Above,White,0,60
+2021,792004,0.0,$50K-$100K,65+ Years,Male,Married,1.0,58.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,68
+2021,796172,0.0,$25K-$50K,65+ Years,Male,Married,1.0,50.0,0.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,White,0,67
+2021,828001,2400.0,$50K-$100K,65+ Years,Male,Married,1.0,73.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,White,0,76
+2021,832170,0.0,<$25K,65+ Years,Male,Married,1.0,70.0,0.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,81
+2021,835003,3000.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,57.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,63
+2021,838001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,69.0,1.0,1.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,76
+2021,885171,0.0,$50K-$100K,65+ Years,Male,Married,1.0,70.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,1.0,Yes,Below College,White,0,72
+2021,894170,0.0,$50K-$100K,65+ Years,Male,Married,1.0,57.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,81
+2021,897030,0.0,<$25K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,45.0,0.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,49
+2021,908177,120000.0,$100K-$200K,55-64 Years,Male,Married,1.0,57.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,0,62
+2021,910179,190000.0,$100K-$200K,35-44 Years,Male,Married,1.0,39.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,1,40
+2021,916004,120000.0,$100K-$200K,65+ Years,Male,Married,1.0,50.0,0.0,1.0,1.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,65
+2021,922001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,68.0,0.0,0.0,0.0,1.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,79
+2021,991001,30000.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,74.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,0,74
+2021,1008003,0.0,$25K-$50K,65+ Years,Male,Married,1.0,60.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,69
+2021,1037003,0.0,$100K-$200K,65+ Years,Male,Married,1.0,56.0,1.0,1.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,72
+2021,1048226,0.0,$50K-$100K,35-44 Years,Male,Married,1.0,30.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,1,37
+2021,1066001,,<$25K,65+ Years,Male,Married,1.0,60.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,83
+2021,1088003,0.0,$100K-$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,59.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,68
+2021,1088170,0.0,$50K-$100K,65+ Years,Male,Married,1.0,68.0,0.0,0.0,0.0,1.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,72
+2021,1089001,0.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,91.0,1.0,1.0,1.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,93
+2021,1121003,48000.0,$50K-$100K,45-54 Years,Male,Married,1.0,45.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,54
+2021,1121177,0.0,$25K-$50K,65+ Years,Male,Married,1.0,53.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,1.0,Yes,Below College,White,0,80
+2021,1126177,0.0,$100K-$200K,45-54 Years,Male,Married,1.0,43.0,1.0,0.0,0.0,1.0,1,0.0,0.0,1,0.0,Yes,College Level or Above,White,3,47
+2021,1127001,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,54.0,1.0,0.0,0.0,1.0,1,1.0,0.0,1,0.0,Yes,College Level or Above,White,0,75
+2021,1144171,0.0,$50K-$100K,65+ Years,Male,Married,1.0,61.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,75
+2021,1152021,0.0,$100K-$200K,65+ Years,Male,Married,1.0,62.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,75
+2021,1166005,46000.0,$100K-$200K,65+ Years,Male,Married,1.0,63.0,1.0,1.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,68
+2021,1222203,0.0,$25K-$50K,65+ Years,Male,Married,1.0,60.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,1.0,Yes,Below College,White,0,65
+2021,1236004,20000.0,$100K-$200K,65+ Years,Male,Married,1.0,58.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,69
+2021,1254003,0.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,65.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,65
+2021,1258004,90000.0,$100K-$200K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,54.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,61
+2021,1282003,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,60.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,73
+2021,1306001,2000.0,$50K-$100K,65+ Years,Male,Married,1.0,73.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Missing,White,0,84
+2021,1314171,0.0,<$25K,65+ Years,Male,Married,1.0,71.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,80
+2021,1345001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,59.0,0.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,86
+2021,1369021,0.0,<$25K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,64.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,74
+2021,1383182,123000.0,$100K-$200K,55-64 Years,Male,Married,1.0,54.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,57
+2021,1399004,0.0,$50K-$100K,65+ Years,Male,Married,1.0,59.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,65
+2021,1399033,101000.0,$100K-$200K,35-44 Years,Male,Married,1.0,30.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,3,38
+2021,1411011,0.0,$50K-$100K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,53.0,1.0,0.0,0.0,1.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,Multiple Race,0,57
+2021,1415176,40000.0,$50K-$100K,25-34 Years,Male,Married,1.0,33.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,2,33
+2021,1498031,0.0,<$25K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,45.0,0.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,49
+2021,1503004,90000.0,$50K-$100K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,44.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,61
+2021,1533005,51000.0,$50K-$100K,55-64 Years,Male,Married,1.0,56.0,1.0,1.0,0.0,1.0,1,1.0,0.0,1,0.0,Yes,College Level or Above,White,2,57
+2021,1551030,15015.0,$25K-$50K,45-54 Years,Male,Married,1.0,45.0,1.0,1.0,1.0,1.0,1,1.0,,1,0.0,No,Below College,White,2,52
+2021,1551174,0.0,<$25K,45-54 Years,Male,Married,1.0,18.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,1,53
+2021,1566171,0.0,$50K-$100K,65+ Years,Male,Married,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,68
+2021,1572001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,79.0,0.0,1.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,Black,0,87
+2021,1624021,95000.0,$100K-$200K,65+ Years,Male,Married,1.0,47.0,1.0,0.0,0.0,,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,71
+2021,1645001,0.0,$100K-$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,73.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,80
+2021,1648031,53856.0,$50K-$100K,35-44 Years,Male,Married,1.0,36.0,0.0,0.0,0.0,0.0,0,1.0,0.0,0,0.0,Yes,Below College,Multiple Race,3,37
+2021,1668021,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,67.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,69
+2021,1690030,149000.0,>=$200K,45-54 Years,Male,Married,1.0,49.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,52
+2021,1695193,49000.0,$100K-$200K,55-64 Years,Male,Married,1.0,46.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,57
+2021,1695232,50000.0,$50K-$100K,45-54 Years,Male,Married,1.0,34.0,1.0,,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Unknown,1,53
+2021,1697004,0.0,$50K-$100K,65+ Years,Male,Married,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,69
+2021,1708003,24646.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,55.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Multiple Race,0,66
+2021,1709003,180000.0,>=$200K,55-64 Years,Male,Married,1.0,62.0,0.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,White,0,62
+2021,1722021,0.0,$25K-$50K,65+ Years,Male,Married,1.0,50.0,1.0,1.0,1.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,74
+2021,1739001,0.0,>=$200K,65+ Years,Male,Married,1.0,65.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,74
+2021,1750001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,75.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,80
+2021,1762179,45000.0,$25K-$50K,35-44 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,43.0,0.0,0.0,0.0,0.0,0,1.0,0.0,1,0.0,No,Below College,White,0,44
+2021,1763005,0.0,$50K-$100K,65+ Years,Male,Married,1.0,55.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,69
+2021,1767170,0.0,$100K-$200K,65+ Years,Male,Married,1.0,50.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,68
+2021,1782003,0.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,43.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,No,College Level or Above,Unknown,0,55
+2021,1841004,132000.0,>=$200K,65+ Years,Male,Married,1.0,34.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,2,69
+2021,1853001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,57.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,83
+2021,1887031,0.0,$25K-$50K,35-44 Years,Male,Married,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,1.0,Yes,Below College,White,1,44
+2021,1909004,26000.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,61.0,1.0,1.0,,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,64
+2021,1911031,35000.0,$100K-$200K,35-44 Years,Male,Married,1.0,39.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,2,44
+2021,1914030,56000.0,$50K-$100K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,47.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,51
+2021,1926170,72000.0,>=$200K,65+ Years,Male,Married,1.0,64.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,65
+2021,1936001,0.0,$50K-$100K,65+ Years,Male,Married,1.0,46.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,79
+2021,1939001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,78.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,Other,0,80
+2021,1945021,0.0,$100K-$200K,65+ Years,Male,Married,1.0,63.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,74
+2021,1964033,4235.0,<$25K,25-34 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,16.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,1.0,No,College Level or Above,White,0,30
+2021,1964181,0.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,54.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,66
+2021,1967170,47450.0,$100K-$200K,65+ Years,Male,Married,1.0,41.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,68
+2021,1973001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,52.0,0.0,0.0,0.0,1.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,74
+2021,2017004,23400.0,$25K-$50K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,52.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,53
+2021,2033021,0.0,$50K-$100K,65+ Years,Male,Married,1.0,52.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,2,72
+2021,2062001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,70.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,92
+2021,2062031,85000.0,$100K-$200K,35-44 Years,Male,Married,1.0,27.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,Below College,White,2,42
+2021,2062200,0.0,$50K-$100K,45-54 Years,Male,Married,1.0,40.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,1,54
+2021,2067004,45000.0,>=$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,45.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,Below College,White,1,66
+2021,2088001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,74.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,0,83
+2021,2106030,30000.0,$100K-$200K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,50.0,0.0,0.0,0.0,1.0,0,1.0,0.0,1,0.0,Yes,College Level or Above,White,0,52
+2021,2117004,0.0,$25K-$50K,55-64 Years,Male,Married,1.0,47.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,59
+2021,2119021,0.0,$50K-$100K,65+ Years,Male,Married,1.0,49.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,73
+2021,2198004,80000.0,$100K-$200K,65+ Years,Male,Married,1.0,63.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,66
+2021,2237001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,65.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,84
+2021,2240001,0.0,$100K-$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,62.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,78
+2021,2250182,20000.0,$100K-$200K,35-44 Years,Male,Married,1.0,39.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,No,Below College,White,1,44
+2021,2250187,0.0,$100K-$200K,65+ Years,Male,Married,1.0,51.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,65
+2021,2288001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,67.0,1.0,1.0,1.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,87
+2021,2302174,44850.0,$100K-$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,54.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,Multiple Race,1,68
+2021,2339003,40000.0,$100K-$200K,65+ Years,Male,Married,1.0,32.0,1.0,0.0,0.0,1.0,0,1.0,1.0,0,0.0,Yes,Below College,Multiple Race,0,67
+2021,2353001,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,60.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,89
+2021,2354183,33000.0,$50K-$100K,45-54 Years,Male,Married,1.0,47.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,1.0,Yes,Below College,White,2,51
+2021,2392005,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,37.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,1,55
+2021,2397030,240000.0,>=$200K,45-54 Years,Male,Married,1.0,34.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,52
+2021,2443002,0.0,<$25K,55-64 Years,Male,Married,1.0,35.0,1.0,1.0,0.0,1.0,1,1.0,1.0,1,1.0,Yes,College Level or Above,White,0,59
+2021,2461001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,49.0,1.0,1.0,1.0,0.0,0,0.0,0.0,1,0.0,Yes,Below College,White,0,77
+2021,2479001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,70.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Multiple Race,0,78
+2021,2509022,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,48.0,1.0,0.0,0.0,1.0,0,1.0,0.0,1,1.0,Yes,College Level or Above,White,0,73
+2021,2515036,14000.0,$25K-$50K,35-44 Years,Male,Married,1.0,41.0,1.0,0.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,College Level or Above,White,3,42
+2021,2559003,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,71
+2021,2569191,40000.0,$50K-$100K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,48.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,50
+2021,2591003,0.0,$50K-$100K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,41.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,1.0,Yes,College Level or Above,White,0,67
+2021,2603171,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,57.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,62
+2021,2632003,0.0,$25K-$50K,65+ Years,Male,Married,1.0,51.0,1.0,0.0,0.0,0.0,0,1.0,0.0,1,0.0,Yes,College Level or Above,White,2,74
+2021,2649177,0.0,$25K-$50K,65+ Years,Male,Married,1.0,60.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,0,74
+2021,2661004,0.0,<$25K,65+ Years,Male,Married,1.0,65.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,66
+2021,2661005,35000.0,$50K-$100K,55-64 Years,Male,Married,1.0,60.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,63
+2021,2661021,11000.0,$25K-$50K,65+ Years,Male,Married,1.0,60.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,White,0,72
+2021,2692004,0.0,$50K-$100K,65+ Years,Male,Married,1.0,50.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,68
+2021,2707006,10700.0,<$25K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,53.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,No,Below College,White,0,56
+2021,2722171,4000.0,$50K-$100K,65+ Years,Male,Married,1.0,45.0,1.0,0.0,0.0,1.0,0,0.0,0.0,0,0.0,Yes,Below College,Black,0,66
+2021,2727022,0.0,$25K-$50K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,43.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,72
+2021,2731002,13000.0,<$25K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,60.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,62
+2021,2755001,59000.0,$100K-$200K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,73
+2021,2758004,15000.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,58.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,1.0,Yes,College Level or Above,White,0,63
+2021,2779001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,94.0,1.0,1.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,White,0,94
+2021,2786030,14000.0,$50K-$100K,45-54 Years,Male,Married,1.0,48.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,49
+2021,2788005,0.0,$50K-$100K,65+ Years,Male,Married,1.0,45.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,68
+2021,2802001,0.0,$100K-$200K,65+ Years,Male,Married,1.0,62.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,White,0,79
+2021,2852003,0.0,$50K-$100K,65+ Years,Male,Married,1.0,42.0,0.0,0.0,0.0,1.0,1,0.0,0.0,1,0.0,Yes,College Level or Above,White,0,67
+2021,2880003,113828.0,$100K-$200K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,57.0,0.0,0.0,0.0,,0,1.0,1.0,0,0.0,Yes,College Level or Above,White,0,62
+2021,2897171,74000.0,$100K-$200K,55-64 Years,Male,Married,1.0,57.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,No,College Level or Above,White,0,62
+2021,2920003,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,48.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,0,64
+2021,2920181,52000.0,$50K-$100K,45-54 Years,Male,Married,1.0,44.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,White,3,45
+2021,2924001,0.0,<$25K,65+ Years,Male,Married,1.0,58.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,Below College,White,0,85
+2021,3054001,0.0,<$25K,65+ Years,Male,Married,1.0,31.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Other,0,76
+2021,3059001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,50.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,Asian/Pacific Islander,0,70
+2021,3062001,15000.0,<$25K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,42.0,0.0,1.0,0.0,1.0,0,1.0,0.0,0,0.0,No,Below College,White,0,47
+2021,3195001,0.0,<$25K,55-64 Years,Male,Married,1.0,61.0,0.0,0.0,0.0,1.0,0,0.0,0.0,1,0.0,Yes,Below College,White,0,64
+2021,3201170,0.0,$25K-$50K,65+ Years,Male,Married,1.0,63.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,68
+2021,3296001,0.0,<$25K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,46.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,1.0,Yes,Below College,White,0,89
+2021,3333001,3956.0,$25K-$50K,55-64 Years,Male,Married,1.0,52.0,0.0,0.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,Below College,White,1,55
+2021,3339001,0.0,<$25K,65+ Years,Male,Married,1.0,66.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Other,0,79
+2021,3359001,48000.0,$50K-$100K,65+ Years,Male,Married,1.0,65.0,0.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,Other,0,66
+2021,3375001,0.0,<$25K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,46.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Other,0,65
+2021,3453001,21000.0,$25K-$50K,65+ Years,Male,Married,1.0,64.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Other,0,67
+2021,3468001,64000.0,$100K-$200K,55-64 Years,Male,Married,1.0,35.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,Below College,White,0,59
+2021,4054001,2500.0,<$25K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,36.0,1.0,1.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,Black,2,48
+2021,4059001,16000.0,$50K-$100K,25-34 Years,Male,Married,1.0,28.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,1.0,Yes,Below College,Unknown,2,32
+2021,4107001,27000.0,$25K-$50K,65+ Years,Male,Married,1.0,60.0,1.0,0.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,College Level or Above,Black,0,70
+2021,4241170,0.0,$25K-$50K,65+ Years,Male,Married,1.0,59.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,White,0,67
+2021,4265001,0.0,$25K-$50K,65+ Years,Male,Married,1.0,71.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Other,3,72
+2021,4339001,0.0,<$25K,65+ Years,Male,Married,1.0,59.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,White,0,67
+2021,4342006,52000.0,$50K-$100K,45-54 Years,Male,Married,1.0,49.0,0.0,0.0,0.0,1.0,0,0.0,0.0,0,0.0,Yes,Below College,Other,3,49
+2021,4424001,45000.0,>=$200K,65+ Years,Male,Married,1.0,42.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,Other,0,70
+2021,4451001,150000.0,>=$200K,65+ Years,Male,Married,1.0,65.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Other,0,67
+2021,5014180,50000.0,$50K-$100K,35-44 Years,Male,Married,1.0,35.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Black,2,40
+2021,5037172,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,58.0,1.0,1.0,0.0,0.0,0,1.0,1.0,0,1.0,Yes,College Level or Above,Black,0,61
+2021,5048181,60000.0,$50K-$100K,35-44 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,33.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,Black,0,35
+2021,5142004,140106.0,>=$200K,55-64 Years,Male,Married,1.0,37.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Black,0,57
+2021,5159008,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,39.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Unknown,1,58
+2021,5161171,0.0,$25K-$50K,55-64 Years,Male,Married,1.0,60.0,1.0,1.0,1.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,American Indian/Alaska Native,0,64
+2021,5170003,0.0,$50K-$100K,65+ Years,Male,Married,1.0,68.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,Black,0,71
+2021,5295005,0.0,<$25K,65+ Years,Male,Married,1.0,65.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,70
+2021,5305030,0.0,<$25K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,39.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,1.0,No,College Level or Above,Black,1,48
+2021,5360001,0.0,<$25K,65+ Years,Male,Married,1.0,68.0,1.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,Black,0,84
+2021,5407171,0.0,$50K-$100K,65+ Years,Male,Married,1.0,70.0,0.0,0.0,0.0,1.0,1,,0.0,0,0.0,Yes,College Level or Above,White,0,78
+2021,5477183,0.0,$25K-$50K,65+ Years,Male,Married,1.0,60.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Black,0,68
+2021,5494003,5000.0,$25K-$50K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,36.0,1.0,0.0,0.0,,0,1.0,1.0,0,0.0,Yes,College Level or Above,Black,0,61
+2021,5560004,1631.0,$50K-$100K,65+ Years,Male,Married,1.0,62.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,71
+2021,5566172,0.0,$50K-$100K,65+ Years,Male,Married,1.0,65.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,Black,0,79
+2021,5676007,3080.0,$25K-$50K,55-64 Years,Male,Married,1.0,52.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Black,0,57
+2021,5684002,0.0,<$25K,65+ Years,Male,Married,1.0,62.0,1.0,1.0,1.0,1.0,1,1.0,0.0,1,0.0,No,College Level or Above,Black,0,69
+2021,5715171,15290.0,$50K-$100K,65+ Years,Male,Married,1.0,63.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,College Level or Above,Black,0,73
+2021,5771002,0.0,<$25K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,57.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,62
+2021,5812012,0.0,<$25K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,54.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,1.0,Yes,College Level or Above,Black,0,54
+2021,5812175,0.0,<$25K,55-64 Years,Male,Married,1.0,44.0,0.0,1.0,0.0,0.0,0,0.0,0.0,1,0.0,Yes,Below College,Black,0,58
+2021,5853035,25568.0,$25K-$50K,35-44 Years,Male,Married,1.0,39.0,1.0,1.0,1.0,0.0,0,1.0,1.0,0,0.0,No,Below College,Black,0,43
+2021,5904005,0.0,<$25K,65+ Years,Male,Married,1.0,61.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Black,0,68
+2021,5904038,38400.0,$25K-$50K,35-44 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,19.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,1.0,Yes,Below College,Black,0,41
+2021,5904039,47000.0,$25K-$50K,35-44 Years,Male,Married,1.0,34.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,College Level or Above,Black,3,40
+2021,6030005,0.0,$25K-$50K,55-64 Years,Male,Married,1.0,52.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Black,0,59
+2021,6051002,0.0,<$25K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,48.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Black,0,69
+2021,6115214,0.0,$50K-$100K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,63.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,1.0,Yes,Below College,Black,0,63
+2021,6127004,0.0,$50K-$100K,55-64 Years,Male,Married,1.0,58.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,60
+2021,6170031,0.0,<$25K,35-44 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,33.0,1.0,0.0,0.0,0.0,0,1.0,1.0,0,0.0,Yes,Below College,Black,1,36
+2021,6205004,0.0,<$25K,65+ Years,Male,Never Married/Widowed/Divorced/Separated,1.0,68.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,0,70
+2021,6368173,0.0,$25K-$50K,45-54 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,40.0,1.0,0.0,0.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Black,0,49
+2021,6438005,75000.0,$100K-$200K,55-64 Years,Male,Married,1.0,53.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,College Level or Above,Black,1,58
+2021,6438178,0.0,$25K-$50K,25-34 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,30.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,College Level or Above,Black,2,32
+2021,6582003,45000.0,$50K-$100K,55-64 Years,Male,Married,1.0,56.0,1.0,0.0,0.0,0.0,0,1.0,1.0,1,0.0,Yes,Below College,Black,0,56
+2021,6591007,0.0,<$25K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,42.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,College Level or Above,Black,0,63
+2021,6639172,0.0,$25K-$50K,55-64 Years,Male,Married,1.0,58.0,1.0,0.0,0.0,1.0,1,1.0,1.0,0,0.0,Yes,Below College,Black,1,58
+2021,6694032,25000.0,$25K-$50K,25-34 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,25.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0.0,Yes,Below College,Black,2,27
+2021,6740172,26000.0,$50K-$100K,65+ Years,Male,Married,1.0,48.0,0.0,0.0,0.0,1.0,0,1.0,1.0,0,1.0,Yes,College Level or Above,Black,0,65
+2021,6779006,0.0,<$25K,55-64 Years,Male,Never Married/Widowed/Divorced/Separated,1.0,55.0,1.0,1.0,1.0,1.0,1,1.0,1.0,1,0.0,Yes,Below College,Multiple Race,0,62
+2021,6845170,0.0,<$25K,65+ Years,Male,Married,1.0,57.0,1.0,0.0,0.0,1.0,1,0.0,0.0,0,0.0,Yes,Below College,Black,0,87
