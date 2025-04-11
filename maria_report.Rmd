@@ -52,11 +52,4 @@ knitr::include_graphics("output/figure1.png")
 
 The figure above illustrates the distribution of ages at which the males in the dataset experienced their first heart attack. The mean age of first heart attack was 54 years old (43-60 years old).
 
-## Figure 2. Family Income Level Distribution in Men Who Have Presented a Heart Attack
-
-```{r fig-two, echo=FALSE}
-knitr::include_graphics("output/figure2.png")
-```
-
-The figure above shows the distribution of family income levels among the males who have experienced a heart attack. Anual Family income between %50k-100k was the highest (31%) while >%200k as the lowest (6.1%).
 
