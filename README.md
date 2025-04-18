@@ -5,8 +5,9 @@ This repository contains the code and data for the final project analyzing males
 
 ## Contents
 - `data/`: Contains the dataset `male_w_heartattack_analysis.csv`.
-- `scripts/`: Contains R scripts for data preparation, descriptive statistics, and figure generation.
-- `FinalProyect2_Maria_Alvarez.Rmd`: R Markdown file for the final report.
+- `code/`: Contains R scripts for data preparation, descriptive statistics, and figure generation.
+- `output/`: Contains tables, figures
+- `maria_report.Rmd`: R Markdown file for the final report.
 - `Makefile`: Makefile to build the final report.
 - `README.md`: This file.
 
@@ -16,5 +17,11 @@ To generate the final report, run the following command in your terminal:
 ```sh
 make
 ```
+
+## How to Synchronize the Package Environment
+To synchronize the package environment for this project, run the following command in your terminal:
+```sh
+make install
+``` 
 
 
