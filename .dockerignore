@@ -1,0 +1,6 @@
+renv/library/
+output/
+report/
+.Rproj.user/
+.Rhistory
+.RData
