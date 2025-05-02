@@ -82,12 +82,37 @@ make docker_build
 ```
 
 ### Running the Analysis in Docker
-Generate teh report using Docker:
+Generate the report using Docker:
 
 ```
 make docker_run
 ```
 This will mount the local `output/` and `report/` folders into the container and compile the report.
+
+#### Pull the Image
+To download the Docker image, run:
+```
+docker pull mariaalvarez95/final:latest
+```
+Run the Image
+After pulling the image, you can run it to generate the report:
+```
+docker run --rm \
+    -v $(pwd)/output:/final/output \
+    -v $(pwd)/report:/final/report \
+    mariaalvarez95/final:latest \
+    make all
+```
+This command:
+
+`-v $(pwd)/output:/final/output`: Mounts your local `output/` folder to the container's `/final/output` directory.
+
+`-v $(pwd)/report:/final/report`: Mounts your local `report/` folder to the container's `/final/report` directory.
+
+`make all`: Executes the analysis workflow inside the container.
+
+Access the Generated Report
+After running the container, the generated report (`maria_report.html`) will be available in your local `report/` directory.
 
 ## Dataset Description
 
