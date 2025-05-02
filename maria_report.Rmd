@@ -1,13 +1,14 @@
 ---
-title: 'Final Project 2: Analysis of Males with Heart Attack'
+title: 'Final Project: Analysis of Males with Heart Attack'
 author: "Maria Alvarez"
 date: "2025-02-21"
 output:
-  html_document: default
-  pdf_document: default
+  html_document:
+    toc: true
+    toc_depth: 2
 ---
 
-```{r, set-chunk-opts, echo = FALSE}
+```{r, set-chunk-opts, include=FALSE}
 library(knitr)
 opts_chunk$set(
   echo = FALSE, warning = FALSE, message = FALSE
@@ -28,28 +29,48 @@ For this project, I will be analyzing a sample of males who have been tracked si
 
 ### Objectives:
 
-* Descriptive Statistics
-* Analyze the age distribution at which these males experienced their first heart attack.
-* Examine the distribution of family income levels among males who have experienced a heart attack.
+* Generate descriptive statistics for key variables.
+* Analyze the age distribution at which males experienced their first heart attack.
+* Examine the association between sociodemographic and health variables with the likelihood of experiencing a heart attack.
 
 
 ## Descriptive Statistics
 
 
-```{r descriptive-stats, echo=FALSE}
+```{r, descriptive-stats, echo=FALSE}
 
-summary_table <- readRDS("output/table1.rds")
+summary_table <- readRDS(here::here("output", "table1.rds"))
 summary_table
+
 ```
 
-The table above provides descriptive statistics for selected variables in the dataset, including comparisons between different age groups.The total sample was male identified as the head of the households (230) who reported a heart attack. 72% were identified as married while the other 28% were identified as never married, widowed, divorced or separated. The mean age of first heart attack was 54 years old. 31% of the individuals reported an anual income between %50-$100k, males of >65 years old were identified as the ones who receive this income (32%). In Education Level 54% of the individual receive below college education which 76% are in the group of 35-44 years old. 
+The table above provides descriptive statistics for selected variables in the dataset, including comparisons between different age groups. The total sample includes 230 males identified as the head of their households who reported experiencing a heart attack. Key findings include:
+
+72% were married, while the remaining 28% were widowed, divorced, separated, or never married.
+
+The mean age of first heart attack was 54 years old.
+
+31% of the individuals reported an annual income between $50,000 and $100,000, with males older than 65 years being the primary recipients of this income bracket.
+
+54% of the individuals had an education level below college, with 76% in this group aged 35-44 years. 
 
 ## Figure 1. Distribution of Age at First Heart Attack
 
 ```{r fig-one, echo=FALSE}
-knitr::include_graphics("output/figure1.png")
+figure1 <- readRDS(here::here("output", "figure1.rds"))
+print(figure1)
+
 ```
 
-The figure above illustrates the distribution of ages at which the males in the dataset experienced their first heart attack. The mean age of first heart attack was 54 years old (43-60 years old).
+The figure above illustrates the distribution of ages at which the males in the dataset experienced their first heart attack. The mean age was 54 years, with most occurrences between 43 and 60 years.
 
 
+## Conclusion
+
+This analysis highlights important patterns and associations in the dataset of males with a history of heart attacks. The findings can be used to inform health interventions targeting specific demographics. Future research should investigate additional factors, such as physical activity or genetic predisposition, that may influence the occurrence of heart attacks.
+
+## References
+
+American Heart Association Statistics, 2025.
+
+Panel Study of Income Dynamics (PSID), University of Michigan.
