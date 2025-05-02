@@ -42,10 +42,11 @@ This repository contains the code, data, and resources for the final project ana
 
 1. Clone this repository:
 
-```git clone https://github.com/MariaAlvarez95/final_project_maria.git
-
 ```
-```cd final_project_maria
+git clone https://github.com/MariaAlvarez95/final_project_maria.git
+```
+```
+cd final_project_maria
 ```
 
 2. Clean any previously generated outputs:
