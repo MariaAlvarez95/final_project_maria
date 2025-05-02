@@ -34,85 +34,75 @@ This repository contains the code, data, and resources for the final project ana
 
 ## How to Generate the Final Report
 
-### Prerequisites
-- Install Docker (optional, but recommended for reproducibility).
-- Install R and the make utility if not using Docker.
-
-### Steps
+### Using Make (Simplest Approach)
 
 1. Clone this repository:
 
 ```
 git clone https://github.com/MariaAlvarez95/final_project_maria.git
-```
-```
 cd final_project_maria
 ```
 
-2. Clean any previously generated outputs:
-```
-make clean
-```
-
-3. Generate the report:
+2. Generate the report:
 
 ```
 make
 ```
 
-4. The .rds files will be available in the `output/` directory and the final `maria_report.html`.
+3. The final report will be available as `maria_report.html`.
 
+### Using R Packages
 
-## Synchronizing Package Environment
-
-To ensure reproducibility, synchronize the package environment:
-
-```sh
-make install
-``` 
-This command uses `renv` to install the exact package versions required for the project.
-
-## Docker Instructions
-
-### Building the Docker Image
-To containerize the project:
-
+If you prefer to manage the package dependencies yourself:
 ```
-make docker_build
+make install     # Install required R packages using renv
 ```
 
-### Running the Analysis in Docker
-Generate the report using Docker:
+## Docker Support 
 
-```
-make docker_run
-```
-This will mount the local `output/` and `report/` folders into the container and compile the report.
+To ensure reproducibility across different systems, we provide a Docker image that contains the exact environment needed to run this analysis.
 
-#### Pull the Image
-To download the Docker image, run:
+### Run with Docker (Step-by-Step)
+
+1. Install Docker Desktop for your operating system from [docker.com](https://www.docker.com/products/docker-desktop/)
+
+2. Create necessary directories:
+```bash
+mkdir -p output report
 ```
+
+3. Pull and run the Docker image:
+
+```bash
+# For Intel/AMD processors (Windows, Linux, older Macs):
 docker pull mariaalvarez95/final:latest
-```
-Run the Image
-After pulling the image, you can run it to generate the report:
-```
 docker run --rm \
-    -v $(pwd)/output:/final/output \
-    -v $(pwd)/report:/final/report \
-    mariaalvarez95/final:latest \
-    make all
+  -v "$(pwd)/output:/final/output" \
+  -v "$(pwd)/report:/final/report" \
+  mariaalvarez95/final:latest
+
+# For Apple Silicon Macs (M1/M2/M3):
+docker pull --platform linux/amd64 mariaalvarez95/final:latest
+docker run --platform linux/amd64 --rm \
+  -v "$(pwd)/output:/final/output" \
+  -v "$(pwd)/report:/final/report" \
+  mariaalvarez95/final:latest
 ```
-This command:
 
-`-v $(pwd)/output:/final/output`: Mounts your local `output/` folder to the container's `/final/output` directory.
+4. The report will be generated and available in the `report` directory.
 
-`-v $(pwd)/report:/final/report`: Mounts your local `report/` folder to the container's `/final/report` directory.
+## Windows-Specific Instructions
 
-`make all`: Executes the analysis workflow inside the container.
+If you're using Windows, replace `$(pwd)` with:
+- `%cd%` in Command Prompt
+- `${PWD}` in PowerShell
 
-Access the Generated Report
-After running the container, the generated report (`maria_report.html`) will be available in your local `report/` directory.
+Example in Command Prompt:
+```
+mkdir output report
+docker pull mariaalvarez95/final:latest
+docker run --rm -v "%cd%/output:/final/output" -v "%cd%/report:/final/report" mariaalvarez95/final:latest
+```
 
 ## Dataset Description
 
@@ -128,4 +118,3 @@ The final report includes:
 - Descriptive Statistics: Summarized tables of key demographic and health variables.
 - Visualization: Histogram of the distribution of ages at the first heart attack.
 - Findings: Insights into the relationships between sociodemographic and health factors with heart attacks.
-

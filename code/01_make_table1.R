@@ -4,6 +4,7 @@ here::i_am("code/01_make_table1.R")
 
 library(readr)
 library(dplyr)
+library(tidyr)
 library(labelled)
 library(gtsummary)
 
@@ -11,8 +12,8 @@ data <- readr::read_csv(here::here("data", "male_w_heartattack_analysis.csv"))
 
 # NA management
 data <- data %>%
-  mutate(across(where(is.character), ~ replace_na(., "Missing"))) %>%
-  mutate(across(where(is.numeric), ~ replace_na(., 0)))
+  mutate(across(where(is.character), ~ tidyr::replace_na(., "Missing"))) %>%
+  mutate(across(where(is.numeric), ~ tidyr::replace_na(., 0)))
 
 # Label variables
 var_label(data) <- list(

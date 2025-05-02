@@ -3,13 +3,15 @@
 here::i_am("code/02_make_figure1.R")
 
 library(ggplot2)
+library(dplyr)
+library(tidyr)
 library(here)
 
 data <- readr::read_csv(here::here("data", "male_w_heartattack_analysis.csv"))
 
 # Data management
 data <- data %>%
-  mutate(age_heart_attack = replace_na(age_heart_attack, 0))
+  mutate(age_heart_attack = tidyr::replace_na(age_heart_attack, 0))
 
 # Create histogram
 figure1 <- ggplot(data, aes(x = age_heart_attack)) +

@@ -1,14 +1,10 @@
-# Usa la imagen base de rocker/tidyverse
+# Use the tidyverse image as base
 FROM rocker/tidyverse:latest
 
-# Establecer el directorio de trabajo
+# Set working directory
 WORKDIR /final
 
-# Copiar solo los archivos esenciales primero (optimización del caché)
-COPY renv.lock renv/activate.R renv/settings.dcf ./
-RUN mkdir -p renv
-
-# Instalar dependencias del sistema
+# Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgdal-dev \
     libproj-dev \
@@ -16,13 +12,22 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gdal-bin && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Restaurar dependencias con renv
-RUN Rscript -e "install.packages('renv')"
-RUN Rscript -e "renv::restore()"
+# Install required R packages
+RUN R -e "install.packages(c('knitr', 'rmarkdown', 'here', 'ggplot2', 'gtsummary', 'dplyr', 'readr', 'labelled', 'tidyr'), repos='https://cloud.r-project.org/')"
 
-# Copiar el resto del proyecto
+# Create necessary directories
+RUN mkdir -p output report
+
+# Copy project files
 COPY . .
 
-# Comando por defecto al iniciar el contenedor
-CMD ["make", "all"]
+# Make sure output and report directories exist
+RUN mkdir -p output report
+
+# Default command to generate and copy the report
+CMD Rscript code/01_make_table1.R && \
+    Rscript code/02_make_figure1.R && \
+    Rscript code/03_render_report.R && \
+    cp maria_report.html report/ && \
+    echo "Report generated successfully! Find it in the mounted report directory."
 
