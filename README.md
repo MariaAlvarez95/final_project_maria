@@ -60,7 +60,7 @@ make clean
 make
 ```
 
-4. The final report will be available in the `output/` directory as `maria_report.html`.
+4. The .rds files will be available in the `output/` directory and the final `maria_report.html`.
 
 
 ## Synchronizing Package Environment
